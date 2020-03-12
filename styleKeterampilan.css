@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+  
+li {
+   float: right;
+}
+  
+li a, .dropbtn {
+   display: inline-block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+li a:hover, .dropdown:hover .dropbtn {
+   background-color: white;
+}
+.tugas:hover .dropdown-content {
+  display: block;
+}
+ 
+li.riwayat {
+   display: inline-block;
+}
+  
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+  
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.riwayat:hover .dropdown-content {
+   display: block;
+}
+.tugas:hover .dropdown-content {
+   display: block;
+ }
+  
+body {
+   margin: 0;
+   padding: 0;
+}
+header {
+   background-image: url('fotoA.jpg');
+   /* height: 350px; */
+}
+nav {
+   display: flex;
+   /* margin-top: 30px; */
+   
+}
+.leftNav {
+   width: 50%;
+}
+#brandImage {
+   height: 50px;
+   width: 200px;
+   margin: 10px;
+}
+.rightNav {
+   width: 50%;
+}
+.quotes {
+   text-align: center;
+ }  
+
+
+.wrapAllSkill {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.wrapSkill {
+   width: 100%;
+   border: 2px solid black;
+   border-radius: 25px;
+   margin: 15px 0 15px 0;
+}
+#skillHtml {
+   width: 40%;
+   background-color: #3af2b4;
+   padding: 15px;
+   border-radius: 25px;
+   color: white;
+}
+#skillCss {
+   width: 30%;
+   background-color: #3ad3f2;
+   padding: 15px;
+   border-radius: 25px;
+   color: white;
+}
+#skillJs {
+   width: 10%;
+   background-color: #3af258;
+   padding: 15px;
+   border-radius: 25px;
+   color: white;
+}
+#skillCorel {
+   width: 50%;
+   background-color: #f26b3a;
+   padding: 15px;
+   border-radius: 25px;
+   color: white;
+}
+footer {
+   background: darkgray;
+   padding: 20px;
+ }

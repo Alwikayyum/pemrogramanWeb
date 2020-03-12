@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertama</title>
+    <link rel="stylesheet" href="styleTugasPertamaJs.css">
+    <script src="hitung.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftNav">
+                <a href="index.html">
+                    <img id="brandImage" src="AlwikayyumWeb.png">
+                </a>
+            </div>
+            <div class="rightNav">
+                <ul>
+                    <li><a href="keterampilan.html" class="keterampilan">Keterampilan</a></li>
+                    <li class="riwayat">
+                        <a href="javascript:void(0)" class="dropbtn">Riwayat</a>
+                        <div class="dropdown-content">
+                        <a href="riwayatPendidikan.html" id="riwayatPendidikan">Riwayat Pendidikan</a>
+                        <a href="riwayatPekerjaan.html" id="riwayatPekerjaan">Riwayat Pekerjaan</a>
+                        <a href="riwayatPelatihan.html" id="riwayatPelatihan">Riwayat Pelatihan</a>
+                        </div>
+                    </li>
+                    <li class="tugas">
+                        <a href="javascript:void(0)" class="dropbtn">Tugas</a>
+                        <div class="dropdown-content">
+                        <a href="tugasPertamaJs.html" id="tugasPertama">Tugas Pertama</a>
+                        <!-- <a href="#" id="tugasKedua">Tugas Kedua</a>
+                        <a href="#" id="tugasKetiga">Tugas Ketiga</a> -->
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html" class="dataDiri">Data Diri</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <jumbotron class="wrapJumbotron">
+            <h2 class="quotes">
+                "Berlari Atau Berjalan Adalah Pilihan, <br>Yang Terpenting Kamu Tak Pernah Berhenti"
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </h2>
+        </jumbotron>
+    </header>
+    <section>
+        <form action="input" class="formNumber">
+            <span>
+                Masukkan Nilai 
+            </span>
+            <div><p>Nilai 1 <input type="text" class="nilai" id="no1" placeholder="Masukkan Angka"></p></div>
+            <div><p>Nilai 2 <input type="text" class="nilai" id="no2" placeholder="Masukkan Angka"></p></div>
+            <div><p>Nilai 3 <input type="text" class="nilai" id="no3" placeholder="Masukkan Angka"></p></div>
+            <div><p>Nilai 4 <input type="text" class="nilai" id="no4" placeholder="Masukkan Angka"></p></div>
+            <div><p>Nilai 5 <input type="text" class="nilai" id="no5" placeholder="Masukkan Angka"></p></div>
+            <!-- <div><p id="hasil"></p></div> -->
+            <br>
+
+            <div class="button">
+                <button type="button" onclick="output()"> Hitung </button>
+                <!-- <input type="button" onclick="reset()" value=" Reset "> -->
+                <button type="button" onclick="reset()"> Reset </button>
+            </div>
+            <div class="output">
+                <p id="outputMax"></p>
+                <p id="outputMin"></p>
+                <p id="outputMean"></p>
+                <p id="outputMedian"></p>
+            </div>
+        </form>
+    </section>
+</body>
